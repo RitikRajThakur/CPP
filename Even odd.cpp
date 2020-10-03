@@ -12,8 +12,8 @@ int main()
 	
 	if(i%2!=0){
 		cout<<"odd number: "<<i<<endl;
-	}
-	else(i%2==0){
+}
+    else i%2==0{
 		cout<<"even numbers: "<<i<<endl;
 	}
 	    
