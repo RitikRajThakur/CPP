@@ -1,3 +1,5 @@
+// Find the Simple Interest.
+ 
 #include <iostream>
 using namespace std;
 int main()
@@ -11,6 +13,6 @@ int main()
     cout<<"Enter the time in years"<<endl;
     cin>>time;
     amount = principal *(1+(rate)/100*time); //A = P(1 + rt) rate is in percentage
-    cout<<"The amount is"<< amount <<endl;
+    cout<<"The Simple Interest amount is"<< amount <<endl;
     return 0;
  }
